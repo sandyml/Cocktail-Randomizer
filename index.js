@@ -10,7 +10,6 @@ const cocktailSection = document.querySelector('#cocktail-section');
 
 // from fetch API https://web.dev/introduction-to-fetch/
 function getNewCocktail() {
-   
    fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php')
    .then(
    function(resp) {
