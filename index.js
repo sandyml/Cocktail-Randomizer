@@ -44,7 +44,7 @@ function showRandomCocktail(cocktail) {
    cocktailSection.appendChild(cocktailIngredient);
    // console.log(cocktailIngredient);
 }
- 
+
 // Instructions utilizing strInstructions
 const manual = document.createElement('manual');
 manual.innerHTML = cocktail.drinks[0].strInstructions;
