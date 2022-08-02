@@ -49,6 +49,7 @@ function showRandomCocktail(cocktail) {
 const manual = document.createElement('manual');
 manual.innerHTML = cocktail.drinks[0].strInstructions;
 cocktailSection.appendChild(manual);
+
 }
 
 function logSubmit(event) {
