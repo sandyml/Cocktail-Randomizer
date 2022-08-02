@@ -414,7 +414,6 @@ button {
  animation: liked .2s ease;
 }
 
-
 @keyframes liked {
  0% {
    transform: scale(.8);
