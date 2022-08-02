@@ -410,6 +410,7 @@ button {
 .heart-like-button.liked::after {
  background-color: #990731;
 }
+
 .heart-like-button.liked {
  animation: liked .2s ease;
 }
