@@ -61,7 +61,6 @@ function logSubmit(event) {
  form.addEventListener('submit', logSubmit);
 
 // HEART button listener
-
 heartButton.addEventListener("click", () => {
 
     console.log(heartButton)
