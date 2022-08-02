@@ -29,7 +29,6 @@ getNewCocktail();
  
 //display new info on the page will pass data as our parameter after create function w parameter as cocktail
 function showRandomCocktail(cocktail) {
- 
    cocktailName.innerHTML = cocktail.drinks[0].strDrink;
    cocktailSection.appendChild(cocktailName);
    img.src = cocktail.drinks[0].strDrinkThumb;
