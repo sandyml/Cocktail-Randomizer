@@ -38,7 +38,7 @@ function showRandomCocktail(cocktail) {
        if(cocktail.drinks[0][`strIngredient${i}`] == '' || cocktail.drinks[0][`strIngredient${i}`] == null) {
            break;
        }
- 
+
    const cocktailIngredient = document.createElement('list-item');
    cocktailIngredient.innerHTML = cocktail.drinks[0][`strMeasure${i}`] + ': ' + cocktail.drinks[0][`strIngredient${i}`];
    cocktailSection.appendChild(cocktailIngredient);
