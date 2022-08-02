@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+ 
+<title>Random Cocktail App</title>
+ 
+<!--remove script -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/onsen/2.10.10/js/onsenui.min.js"></script> -->
+</head>
+ 
+ 
+<header><h1>Surprise Cocktail</h1></header>
+<blockquote>“Different cocktails for different Saturday nights.”</blockquote>
+<cite>- Drew Barrymore</cite>
+
+<section>
+  <h5>Want to subscribe for random cocktails? Enter Address Here:</h5>
+<form id="form">
+  <label>Email Address Only: <input id="email-container" type="text" placeholder="Email Here"></label>
+  <br><br>
+  <button id="sub-submit" type="sub-submit">Subscribe</button>
+</form>
+<p id="log"></p>
+</section>
+
+<section id="cocktail-section"></section>
+ 
+<body>
+<section>
+<div class="box-container">
+ <div class="cocktail"></div>
+ <!-- <button id="button" type="button" class='fas fa-glass-cheers' onClick="window.location.reload();">NEW COCKTAILS</button> -->
+ <button id="button" type="button" class='fas fa-glass-cheers'>NEW COCKTAIL</button>
+</div>
+
+<section>
+<div id="heart-container">
+<div id="heart-button" type="button" class="heart-like-button"></div>
+<h1></h1>
+</div>
+</section> 
+
+
+ 
+<p id="pTag"></p>
+<section id="list-item"></section>
+ 
+ 
+<h4> There are over 600 cocktail drinks to choose from, trust me, you'll love at least one!</h4>
+</section>
+ 
+<script src="./index.js"></script>
+ 
+</body>
+</html>
