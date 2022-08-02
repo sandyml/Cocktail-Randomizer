@@ -392,6 +392,7 @@ button {
  cursor: pointer;
  transition: background .2s;
 }
+
 .heart-like-button:after {
  position: absolute;
  top: 0;
