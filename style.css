@@ -406,6 +406,7 @@ button {
  cursor: pointer;
  transition: background .4s;
 }
+
 .heart-like-button.liked::before,
 .heart-like-button.liked::after {
  background-color: #990731;
