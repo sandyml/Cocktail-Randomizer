@@ -62,8 +62,8 @@ function logSubmit(event) {
 
 // HEART button listener
 
-heartButton.addEventListener("click", () =>{
-   
+heartButton.addEventListener("click", () => {
+
     console.log(heartButton)
   if (heartButton.classList.contains("liked")) {
     heartButton.classList.remove("liked");
