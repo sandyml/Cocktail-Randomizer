@@ -54,7 +54,7 @@ cocktailSection.appendChild(manual);
 function logSubmit(event) {
    log.textContent = `Yay to new Cocktails! Thank you for subscribing!`;
    event.preventDefault();
- }
+}
 
  const form = document.getElementById('form');
  const log = document.getElementById('log');
