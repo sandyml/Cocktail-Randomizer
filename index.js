@@ -5,8 +5,6 @@ const img = document.createElement('img');
 const cocktailName = document.createElement('h2');
 const heartButton = document.getElementById('heart-button');
 const cocktailSection = document.querySelector('#cocktail-section');
-// const form = document.getElementById('form');
-
 
 // from fetch API https://web.dev/introduction-to-fetch/
 function getNewCocktail() {
@@ -22,8 +20,8 @@ function getNewCocktail() {
        });
    }
    )
-   .catch(function(error) {
-   });
+   // .catch(function(error) {
+   // });
 }
 getNewCocktail();
  
