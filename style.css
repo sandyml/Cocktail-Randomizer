@@ -378,6 +378,7 @@ button {
  width: fit-content;
  height: 260px;
 }
+
 .heart-like-button:before {
  position: absolute;
  top: 0;
